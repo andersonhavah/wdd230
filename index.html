@@ -1,11 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Anderson Havah - WDD 230 - Web Frontend Development</title>
+    <meta name="description" content="Welcome to the WDD 230 - Web Frontend Development I home page. This page, created by Anderson Havah, helps manage assignments and track progress efficiently.">
+    <meta name="author" content="Anderson Havah">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
 </head>
+
 <body>
-    <h1>WDD 230 - Home Page</h1>
+    <!-- This is the header of the page -->
+    <header>
+        <img src="images/andersonPicture.jpg" alt="Anderson Havah Profile Image" width="100">
+        <span id="myname">Anderson Havah</span>
+    </header>
+
+    <nav>
+        <a href="index.html" class="active">Home</a>
+        <a href="#" target="_blank">Chamber</a>
+        <a href="#" target="_blank">Site Plan</a>
+        <a href="#" target="_blank">Form</a>
+    </nav>
+    <main>
+        <h1>WDD 230: Web Frontend Development</h1>
+        <hr>
+        <section class="card">
+            <h2>Learning Activities</h2>
+            <ul>
+                <li>Week 01: <a href="week01/holygrail.html">Layout</a> | <a href="week01/media-query.html">Media Query</a> | <a href="https://codepen.io/anderson1206/pen/ZYzReWw">JS Pen</a></li>
+                <li>Week 02: </li>
+                <li>Week 03: </li>
+                <li>Week 04: </li>
+                <li>Week 05: </li>
+                <li>Week 06: </li>
+            </ul>
+        </section>
+
+        <section class="card">
+            <h2>Information</h2>
+            <p>Lome, Togo</p>
+            <p>[Weather]</p>
+            <p>Page Visits: </p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; <span id="currentYear"></span> - Anderson Havah - Togo <img src="images/flag-of-Togo.jpg"
+            alt="Flag of Togo" class="flag"></p>
+    <p id="lastModified"></p>
+    </footer>
+
+    <script src="scripts/getDates.js"></script>
 </body>
+
 </html>
