@@ -105,6 +105,10 @@ footer {
     margin-top: 1rem;
 }
 
+footer p {
+    margin: 0.3rem;
+}
+
 footer .flag {
     width: 35px;
     height: 100%;
