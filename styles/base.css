@@ -118,3 +118,31 @@ footer .flag {
     top: 5px
 }
 
+/* Chamber Site Plan */
+.chamber-site-plan {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 1rem;
+    max-width: 62.5rem;
+    margin: 0 auto;
+    line-height: 2rem;
+}
+
+.chamber-site-plan h2 {
+    text-align: center;
+    margin: 1rem;
+    background-color: #0056b3;
+    color: #ffffff;
+}
+
+.chamber-site-plan p {
+    margin: 1rem;
+}
+
+.chamber-site-plan ul {
+    list-style-position: inside;
+    list-style-type: none;
+    line-height: 2rem;
+    margin: 1rem;
+}
+
