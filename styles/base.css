@@ -19,12 +19,33 @@ header {
     justify-content: center;
     align-items: center;
     height: 9rem;
+    position: relative;
 }
 
 header img {
     margin: 1rem;
 }
 
+#darkBtn {
+    position: absolute;
+    top: 6rem;
+    right: 0.3rem;
+    width: 1.5rem;
+    cursor: pointer;
+    background-color: #ffffff;
+}
+
+.dark-mode {
+	background-color: #000;
+	color: #ffffff;
+	border-color: #eee; 
+}
+
+.dark-mode .card {
+    background-color: #000000;
+    color: #ffffff;
+    border-color: #444;
+}
 
 /* Navigation */
 nav {
@@ -33,7 +54,7 @@ nav {
 }
 
 nav a {
-    display: block;
+    display: none;
     color: #ffffff;
     text-decoration: none;
     padding: 1rem;
@@ -48,6 +69,30 @@ nav a:hover {
     color: #ffff00;
     text-decoration: overline;
 }
+
+#menu {
+    font-size: 2rem;
+    border: 0;
+    background: none;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+#menu::before {
+    content: "☰";
+    color: #ffffff;
+}
+
+#menu.open::before {
+    content: "X";
+}
+
+/* when the button is clicked - the open class is toggled (added/removed) */
+.open a {
+    display: block;
+}
+
 
 /* Main */
 main {

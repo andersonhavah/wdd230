@@ -36,4 +36,8 @@
     .chamber-site-plan {
         display: block;
     }
+
+    #menu {
+        display: none;
+    }
 }
