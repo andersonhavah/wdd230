@@ -19,7 +19,6 @@ header {
     justify-content: center;
     align-items: center;
     height: 9rem;
-    position: relative;
 }
 
 header img {
@@ -92,7 +91,6 @@ nav a:hover {
 .open a {
     display: block;
 }
-
 
 /* Main */
 main {
