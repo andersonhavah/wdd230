@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anderson Havah - WDD 230 - Web Frontend Development</title>
+    <meta name="description"
+        content="Welcome to the WDD 230 - Web Frontend Development I home page. This page, created by Anderson Havah, helps manage assignments and track progress efficiently.">
+    <meta name="author" content="Anderson Havah">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="favicon.ico">
+
+    <!-- Open Graph meta tags for Facebook, LinkedIn, etc. -->
+    <meta property="og:title" content="Anderson Havah - WDD 230 - Web Frontend Development">
+    <meta property="og:description"
+        content="Welcome to the WDD 230 - Web Frontend Development I home page. This page, created by Anderson Havah, helps manage assignments and track progress efficiently.">
+    <meta property="og:image" content="https://statemag.state.gov/wp-content/uploads/2021/03/0421POM-6.jpg">
+    <meta property="og:url" content="https://andersonhavah.github.io/wdd230/">
+    <meta property="og:type" content="website">
+</head>
+
+<body>
+    <!-- This is the header of the home page -->
+    <header>
+        <img src="images/andersonPicture.jpg" alt="Anderson Havah Profile Image" width="100">
+        <span id="myname">Anderson Havah</span>
+        <img src="images/dark.svg" alt="dark mode" id="darkBtn">
+    </header>
+
+    <!-- This is the navigation of the home page -->
+    <button type="button" id="menu" aria-label="the menu"></button>
+    <nav class="navigation">
+        <a href="index.html" class="active">Home</a>
+        <a href="chamber/index.html">Chamber</a>
+        <a href="week01/chamber-site-plan.html">Site Plan</a>
+        <a href="#">Form</a>
+    </nav>
+
+    <picture>
+        <source media="(min-width: 400px)" srcset="">
+    </picture>
+    <main>
+        
+    </main>
+    <footer>
+        <p>&copy; <span id="currentYear"></span> - Anderson Havah - Togo <img src="images/flag-of-Togo.jpg"
+                alt="Flag of Togo" class="flag"></p>
+        <p id="lastModified"></p>
+    </footer>
+
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/homePage.js"></script>
+</body>
+
+</html>
