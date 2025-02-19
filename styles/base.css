@@ -201,3 +201,39 @@ footer .flag {
     margin: 1rem;
 }
 
+/* Hero */
+.hero {
+    position: relative;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.hero span {
+    position: absolute;
+    top: 6rem;
+	left: 10px;
+    background: radial-gradient(#fff, #b2b7ca);
+	border: 1px solid rgba(0,0,0,.75);
+	padding: .2rem;
+	box-shadow: 0 0 3rem #fff;
+	/* opacity: 0.75; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.hometown {
+    display: flex;
+    justify-content: center;  /* Centers the iframe horizontally */
+    align-items: center;      /* Centers the iframe vertically */
+    height: 100vh;            /* Makes the container take full viewport height */
+    margin: 0;
+}
+
+.hometown iframe {
+    margin: 1rem;
+}
+
+
+
