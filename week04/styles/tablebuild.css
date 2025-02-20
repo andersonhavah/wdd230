@@ -1,0 +1,51 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+table {
+    margin: 3rem auto;
+    border: thin solid #554545;
+    box-shadow: 0 0 10px #554545;
+    border-collapse: collapse;
+    width: 25rem;
+    height: auto;
+}
+
+table thead tr {
+    background-color: #2422a1;
+    color: #ffffff;
+}
+
+table thead tr:nth-of-type(2) {
+    background-color: #40d3d8;
+    color: black;
+}
+
+table thead th {
+    padding: 0.5rem;
+}
+
+table tbody {
+    background-color: #f0f0f0;
+}
+
+tbody td, tbody th {
+    padding: 0.5rem;
+    text-align: center;
+    border: thin solid #554545;
+}
+
+thead th {
+    border: thin solid #554545;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #ffffff;
+    border: thin solid #554545;
+}
+
+caption {
+    padding: 1rem;
+    font-size: .85rem;
+    caption-side: bottom;
+}
